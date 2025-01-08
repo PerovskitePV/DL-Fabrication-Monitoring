@@ -1,6 +1,6 @@
 # Deep learning for augmented process monitoring of scalable perovskite thin-film fabrication
 
-This repository contains the code and dataset for the paper **"Deep learning for augmented process monitoring of scalable perovskite thin-film fabrication"**. The project explores the use of deep learning for material classification, device performance prediction, and process control in the fabrication of blade-coated perovskite solar cells.
+This repository contains the code for the paper **[Deep learning for augmented process monitoring of scalable perovskite thin-film fabrication](https://doi.org/10.1039/D4EE03445G)**. The project explores the use of deep learning for material classification, device performance prediction, and process control in the fabrication of blade-coated perovskite solar cells.
 
 
 <p align="center">
@@ -12,8 +12,8 @@ This repository contains the code and dataset for the paper **"Deep learning for
 
 ## Dataset Overview
 
-The dataset, **In Situ Photoluminescence Dataset for Exploring Material and Processing Variabilities in Blade-Coated Perovskite Photovoltaics**, includes:
-- Time-resolved in situ photoluminescence (PL) and diffuse reflection imaging data.
+The dataset, **[In Situ Photoluminescence Dataset for Exploring Material and Processing Variabilities in Blade-Coated Perovskite Photovoltaics](https://doi.org/10.5281/zenodo.14609789)**, includes:
+- Time-resolved in situ photoluminescence (PL) and diffuse reflection data.
 - Material-level properties: precursor composition (molarity and molar ratio).
 - Device-level performance metrics: power conversion efficiency (PCE), open-circuit voltage (VOC), short-circuit current density (JSC), and fill factor (FF).
 
@@ -35,10 +35,30 @@ git clone https://github.com/PerovskitePV/DL-Fabrication-Monitoring cd DL-Fabric
 2. **Download the dataset:**
 Save `data.h5` from [Zenodo](https://doi.org/10.5281/zenodo.14609789) in the `data/` folder.
 3. **Download the forecasting models:**
-Save the random forest models from Zenodo in the `models/forecasting_models/` folder.
+Save the random forest models from [Zenodo](https://doi.org/10.5281/zenodo.14609789) in the `models/forecasting_models/` folder.
 
-### Reproducing the Results
-The repository includes the following scripts to reproduce the results from the paper **"Deep learning for augmented process monitoring of scalable perovskite thin-film fabrication"**.   
+### Citation
+If you use this repository or the dataset in your work, please cite our [paper](https://doi.org/10.1039/D4EE03445G):
+
+```bibtex
+@article{https://doi.org/10.1039/D4EE03445G,
+  title = {Deep learning for augmented process monitoring of scalable perovskite thin-film fabrication},
+  ISSN = {1754-5706},
+  url = {http://dx.doi.org/10.1039/D4EE03445G},
+  DOI = {10.1039/d4ee03445g},
+  journal = {Energy &amp; Environmental Science},
+  publisher = {Royal Society of Chemistry (RSC)},
+  author = {Laufer,  Felix and G\"{o}tz,  Markus and Paetzold,  Ulrich Wilhelm},
+  year = {2025}
+}
+```
+
+## Reproducing the Results
+The repository includes the following scripts to reproduce the results from the paper **[Deep learning for augmented process monitoring of scalable perovskite thin-film fabrication](https://doi.org/10.1039/D4EE03445G)**. 
+
+
+
+
 
 #### Structure
 ```
